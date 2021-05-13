@@ -18,13 +18,13 @@ public class AuxiliaryUtils {
      * @param graphDbSever The address of the graphDbServer, as a String value.
      * @param repositoryId The repository id of interest, as a String value.
      *
-     * @return The repository connection, as a Repository Connection object.
+     * @return The repository, as a Repository object.
      */
     public static Repository retrieveRepository(String graphDbSever, String repositoryId) {
 
         // Create a new HTTP Repository object.
         Repository repository = new HTTPRepository(graphDbSever, repositoryId);
-        repository.initialize();
+        repository.init();
 
         // Get the connection and return it.
         return repository;
