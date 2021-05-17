@@ -59,7 +59,7 @@ public class Activity {
 
         // Set the class's variables through the corresponding setters.
         setStarTime(new DateTime(activityJsonObject.get(START_NAME_STRING)));
-        setStopTime(new DateTime(activityJsonObject.get(STOP_NAME_STRING)));
+        setStopTime(new DateTime(activityJsonObject.get(END_NAME_STRING)));
         setContent((String) activityJsonObject.get(CONTENT_NAME_STRING));
 
         // Cast the observations contained in the activity json object to a JSONArray object.

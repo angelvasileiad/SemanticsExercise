@@ -39,10 +39,10 @@ public class AuxiliaryConstants {
     public static String START_NAME_STRING = "start";
 
     /**
-     * This variable represent the stop name as a string. It is used through json parsing procedure, and acts in order
+     * This variable represent the end name as a string. It is used through json parsing procedure, and acts in order
      * to vanish magic words from our code.
      */
-    public static String STOP_NAME_STRING = "stop";
+    public static String END_NAME_STRING = "end";
 
     /**
      * This variable represent the content name as a string. It is used through json parsing procedure, and acts in order

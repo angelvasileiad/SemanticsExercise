@@ -50,7 +50,7 @@ public class Observation {
 
         // Set the class's variables through the corresponding setters.
         setStarTime(new DateTime(observationJsonObject.get(START_NAME_STRING)));
-        setStopTime(new DateTime(observationJsonObject.get(STOP_NAME_STRING)));
+        setStopTime(new DateTime(observationJsonObject.get(END_NAME_STRING)));
         setContent((String) observationJsonObject.get(CONTENT_NAME_STRING));
     }
 
